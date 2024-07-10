@@ -1,0 +1,15 @@
+db.usuarios.insertMany(
+[
+    {
+        "nome": "Carlos",
+        "idade": 20,
+        "cidade": "São Paulo",
+        "endereco": "Rua Santa Cruz, 995 - Jardim Vera Cruz, Sorocaba/SP"
+    },
+    {
+        "nome": "Tiago",
+        "idade": 38,
+        "email": "contato#tardelli@tiagotardelli.com.br",
+        "endereco": "Rua Santa Cruz, 995 - Jardim Vera Cruz, Sorocaba/SP"
+    },
+]);
